@@ -21,7 +21,7 @@ text-shadow: 0px 0px   #fff; /*Sombra del titulo*/
 }
 
 
-.container2 {
+/*.container2 {
     margin-right: 50px;
     margin-left: 50px;
 }
@@ -33,27 +33,27 @@ float: left;
 width: 100%;
 }
 .secondary-navigation a { 
-font-family: 'Verdana', sans-serif; /*tipografia*/
-font-size: 12px; /*medida de la tipografia*/
-line-height: 1.2em; /*interlineado*/
-text-align: center; /*alineacion del texto*/
-text-decoration: none; /*The text-decoration property specifies the decoration added to text, and is a shorthand property for:
+font-family: 'Verdana', sans-serif; tipografia
+font-size: 12px; medida de la tipografia
+line-height: 1.2em; interlineado
+text-align: center; alineacion del texto
+text-decoration: none; The text-decoration property specifies the decoration added to text, and is a shorthand property for:
 
     text-decoration-line (required)
     text-decoration-color
     text-decoration-style
-*/
-text-transform: uppercase; /*mayusculas*/
-padding: 17px 35px 0 0; /*margenes*/
-transition: all 0.25s linear; /*transition: property duration timing-function delay|initial|inherit;*/
+
+text-transform: uppercase; mayusculas
+padding: 17px 35px 0 0; margenes
+transition: all 0.25s linear; transition: property duration timing-function delay|initial|inherit;
 text-shadow: 0px 1px   #CCC;
 color: #777;
 }
-.secondary-navigation a:hover { /*Select and style a link when you mouse over it:*/
+.secondary-navigation a:hover { Select and style a link when you mouse over it:
 color: #79ACCD;
 }
 
-/*DESPLEGABLES*/
+DESPLEGABLES
 .nav > li {
 float:left;
 }
@@ -86,4 +86,4 @@ position:relative;
 .nav li ul li ul {
 right:-140px;
 top:0px;
-}
+}*/

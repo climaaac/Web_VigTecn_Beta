@@ -1,91 +1,13 @@
-/* Header */
-.main-header {
-margin:0px auto 0px auto; /*Centrar*/
-max-width: 1200px;   /*Ancho máximo de la página*/
-min-width:240px;    /*Ancho mínimo de la página*/
-overflow: visible;
-width: 100%;  /*Ancho de la página con respecto a la ventana*/
-z-index: 99; /*Posición eje Z,importante cuando se superponen contenidos*/
-/* border-bottom: 7px solid #005993;    /*Grosor y color de la línea base de la cabecera*/
-}
-
-.backgroundHead{
-  width: 100%;
-  height: 140px;
-  background:url(../images/AAClogoBlack.png) no-repeat bottom right, url(../images/plae.jpg) no-repeat bottom left, linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat right;
-}
-.title {
+.main-header{
 position: relative;
-bottom: -100px;
-left: 0px;
-color: #F4F0FF;/*Color del título*/
-text-shadow: 0px 0px   #fff; /*Sombra del titulo*/
+float: right; /*Alineación del contenido*/
+width: 100%; /* Ancho de la página con respecto a la ventana */
+z-index: 99; /*Posición eje Z, importante cuando se superponen contenidos*/
+border-bottom: 0px solid #005993   /* Grosor y color de la línea base de la cabecera */ 
 }
-
-
-.container2 {
-    margin-right: 50px;
-    margin-left: 50px;
-}
-
-
-.secondary-navigation {
-display: block;
-float: left;
-width: 100%;
-}
-.secondary-navigation a { 
-font-family: 'Verdana', sans-serif; /* tipografia */
-font-size: 12px; /* medida de la tipografia */
-line-height: 1.2em; /* interlineado */
-text-align: center; /* alineacion del texto */
-text-decoration: none; /* The text-decoration property specifies the decoration added to text, and is a shorthand property for: 
-
-    text-decoration-line (required)
-    text-decoration-color
-    text-decoration-style */
-
-text-transform: uppercase; /* mayusculas */
-padding: 17px 35px 0 0; /* margenes*/
-transition: all 0.25s linear; /* transition: property duration timing-function delay|initial|inherit; */
-text-shadow: 0px 1px   #CCC;
-color: #777;
-}
-.secondary-navigation a:hover { /* Select and style a link when you mouse over it: */
-color: #79ACCD;
-}
-
-DESPLEGABLES
-.nav > li {
-float:left;
-}
-.nav li a {
-background-color:#99ccff;
-color:#fff;
-text-decoration:none;
-padding:10px 12px;
-display:block;
-}
-			
-.nav li a:hover {
-background-color:#434343;
-}
-			
-.nav li ul {
-display:none;
-position:absolute;
-min-width:140px;
-}
-			
-.nav li:hover > ul {
-display:block;
-}
-
-.nav li ul li {
-position:relative;
-}
-			
-.nav li ul li ul {
-right:-140px;
-top:0px;
+.container{
+   position: relative;
+   margin: 0px auto 0px auto;
+   overflow: visible;
+   max-width: 940px;
 }

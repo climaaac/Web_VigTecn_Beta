@@ -1,13 +1,125 @@
-.main-header{
-position: relative;
-float: right; /*Alineación del contenido*/
-width: 100%; /* Ancho de la página con respecto a la ventana */
-z-index: 99; /*Posición eje Z, importante cuando se superponen contenidos*/
-border-bottom: 0px solid #005993   /* Grosor y color de la línea base de la cabecera */ 
+/* Header */
+.main-header {
+margin:0px auto 0px auto; /*Centrar*/
+max-width: 1200px;   /*Ancho máximo de la página*/
+min-width:240px;    /*Ancho mínimo de la página*/
+overflow: visible;
+width: 100%;  /*Ancho de la página con respecto a la ventana*/
+z-index: 99; /*Posición eje Z,importante cuando se superponen contenidos*/
+/* border-bottom: 7px solid #005993;    /*Grosor y color de la línea base de la cabecera*/
 }
-.container{
-   position: relative;
-   margin: 0px auto 0px auto;
-   overflow: visible;
-   max-width: 940px;
+
+.backgroundHead{
+  width: 100%;
+  height: 140px;
+  background:url(../images/AAClogoBlack.png) no-repeat bottom right, url(../images/plae.jpg) no-repeat bottom left, linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat right;
+}
+.title {
+position: relative;
+bottom: -100px;
+left: 0px;
+color: #F4F0FF;/*Color del título*/
+text-shadow: 0px 0px   #fff; /*Sombra del titulo*/
+}
+
+.margenes {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/*ESTILO GENERAL DESPLEGABLE*/
+nav ul {
+    list-style: none; /*quito los puntos*/
+    padding: 0; /*sin sangria*/
+    
+}
+nav li {
+    line-height: 15px; /*altura de linea*/
+}
+nav a { /*le quito el subrayado*/
+    color: #ddd; /*color de todas las lineas*/
+    display: block; /*para q ocupe todo el alto*/
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+nav ul ul { /*puedo ocultar los subitems temporalmente para q no me molesten*/
+    display: none;
+}
+
+/*PRIMER NIVEL*/
+nav > ul {
+    background: #333; /*fondo negro*/
+    display: table; /*se muestran los elementos, toma las dimensiones del contenido*/
+    width: 100%;
+}
+
+nav > ul > li {
+    float:left; /*texto flotando*/
+} 
+   
+
+/*SEGUNDO NIVEL*/
+
+/*TERCER NIVEL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.props { /*elimina el padding que se puede crear por defecto en una lista de elementos*/
+    padding:0;
+    list-style:none;
+    
+}
+
+.props li { /*hay q ponerle el li para q coja lo q esta dentro*/
+width: 100%;
+}
+
+.props li a {
+    font-family: "Trebuchet", sans-serif; /*tipografia*/
+    font-size: 12px; /* medida de la tipografia*/
+    line-height: 1.2em; /* interlineado*/
+    text-decoration: none;   
+    float:left; /*necesario???*/
+    padding: 10px;
+    text-transform: uppercase; /* mayusculas*/
+    background-color: #2175bc;
+    color: #fff;
+}
+
+.props li a:hover { /* Select and style a link when you mouse over it*/
+background-color: #2586d7;
+margin-top: -2;
+padding-bottom: 12px;
 }

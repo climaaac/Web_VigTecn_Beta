@@ -12,11 +12,13 @@ z-index: 99; /*Posición eje Z,importante cuando se superponen contenidos*/
 .backgroundHead{
   width: 100%;
   height: 140px;
-  background:url(../images/logoAAC.png) no-repeat bottom right, url(../images/A400M.jpg) no-repeat bottom right, linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat right;
+  background:url(../images/AAClogoBlack.png) no-repeat bottom right, url(../images/plae.jpg) no-repeat bottom left, linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat right;
 }
 .title {
-text-align: left;    
-color: #FFFFFF;/*Color del título*/
+position: relative;
+bottom: -100px;
+left: 0px;
+color: #F4F0FF;/*Color del título*/
 text-shadow: 0px 0px   #fff; /*Sombra del titulo*/
 }
 
